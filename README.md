@@ -10,7 +10,7 @@ DExtER prints one line per patient for new data extractions, for any additional 
 
 * Please do not copy the data to your local device. Mount the RDS drive and then read it to memory. See here for how to mount: [mac](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-the-rds-via-macos.aspx), [windows](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-rds-via-windows.aspx), [linux](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-rds-via-linux.aspx)
 
-* The data access is timestamped logged and accessible to project owner only. 
+* The user access to data is timestamped logged and accessible to project owner only. 
 
 
 ## Database Sources and Linkage
