@@ -99,151 +99,151 @@ Each column/variable in the extracted datasets can be classified into 4 data typ
 |IMD                 | Indices of multiple deprivation  (essentially a measure of poverty).                                      | Categorical|
 
 #### Baseline information
-| Column name        | Description                                                                                               | Data type  |
-|:-------------------|:----------------------------------------------------------------------------------------------------------|:-----------|
-| B_MEDI:HF_BHAM_CAM_FINAL:0                           | column for **hf** if diagnosed and records the codes                                        | Numeric    |
+| Column name        | Description                                                                                                                   | Data type  |
+|:-------------------|:------------------------------------------------------------------------------------------------------------------------------|:-----------|
+| B_MEDI:HF_BHAM_CAM_FINAL:0                           | column for **hf** if diagnosed and records the codes                                        | Text       |
 | BD_MEDI:HF_BHAM_CAM_FINAL:0                          | date column for **hf** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:AF_BHAM_CAM:1                                 | column for **af** if diagnosed and records the codes                                        | Numeric    |
+| B_MEDI:AF_BHAM_CAM:1                                 | column for **af** if diagnosed and records the codes                                        | Text       |
 | BD_MEDI:AF_BHAM_CAM:1                                | date column for **af** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:ISCHAEMICSTROKE_BHAM_CAM:2                    | column for **ischaemicstroke** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:ISCHAEMICSTROKE_BHAM_CAM:2                    | column for **ischaemicstroke** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:ISCHAEMICSTROKE_BHAM_CAM:2                   | date column for **ischaemicstroke** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:STROKEUNSPECIFIED_BHAM_CAM:3                  | column for **strokeunspecified** if diagnosed and records the codes                         | Numeric    |
+| B_MEDI:STROKEUNSPECIFIED_BHAM_CAM:3                  | column for **strokeunspecified** if diagnosed and records the codes                         | Text       |
 | BD_MEDI:STROKEUNSPECIFIED_BHAM_CAM:3                 | date column for **strokeunspecified** to record when the diagnosed was made.                | Date       |
-| B_MEDI:STROKE_HAEMRGIC_BHAM_CAM:4                    | column for **stroke haemrgic** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:STROKE_HAEMRGIC_BHAM_CAM:4                    | column for **stroke haemrgic** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:STROKE_HAEMRGIC_BHAM_CAM:4                   | date column for **stroke haemrgic** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:HYPERTENSION_BHAM_CAM:5                       | column for **hypertension** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:HYPERTENSION_BHAM_CAM:5                       | column for **hypertension** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:HYPERTENSION_BHAM_CAM:5                      | date column for **hypertension** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:MINFARCTION_BHAM_CAM:6                        | column for **minfarction** if diagnosed and records the codes                               | Numeric    |
+| B_MEDI:MINFARCTION_BHAM_CAM:6                        | column for **minfarction** if diagnosed and records the codes                               | Text       |
 | BD_MEDI:MINFARCTION_BHAM_CAM:6                       | date column for **minfarction** to record when the diagnosed was made.                      | Date       |
-| B_MEDI:IHD_NOMI_BHAM_CAM:7                           | column for **ihd nomi** if diagnosed and records the codes                                  | Numeric    |
+| B_MEDI:IHD_NOMI_BHAM_CAM:7                           | column for **ihd nomi** if diagnosed and records the codes                                  | Text       |
 | BD_MEDI:IHD_NOMI_BHAM_CAM:7                          | date column for **ihd nomi** to record when the diagnosed was made.                         | Date       |
-| B_MEDI:PAD_STRICT_BHAM_CAM:8                         | column for **pad strict** if diagnosed and records the codes                                | Numeric    |
+| B_MEDI:PAD_STRICT_BHAM_CAM:8                         | column for **pad strict** if diagnosed and records the codes                                | Text       |
 | BD_MEDI:PAD_STRICT_BHAM_CAM:8                        | date column for **pad strict** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:VALVULARDISEASES_BHAM_CAM:9                   | column for **valvulardiseases** if diagnosed and records the codes                          | Numeric    |
+| B_MEDI:VALVULARDISEASES_BHAM_CAM:9                   | column for **valvulardiseases** if diagnosed and records the codes                          | Text       |
 | BD_MEDI:VALVULARDISEASES_BHAM_CAM:9                  | date column for **valvulardiseases** to record when the diagnosed was made.                 | Date       |
-| B_MEDI:AORTICANEURYSM_BHAM_CAM:10                    | column for **aorticaneurysm** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:AORTICANEURYSM_BHAM_CAM:10                    | column for **aorticaneurysm** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:AORTICANEURYSM_BHAM_CAM:10                   | date column for **aorticaneurysm** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:TYPE1DM_11_3_21_BIRM_CAM:11                   | column for **type1dm** if diagnosed and records the codes                                   | Numeric    |
+| B_MEDI:TYPE1DM_11_3_21_BIRM_CAM:11                   | column for **type1dm** if diagnosed and records the codes                                   | Text       |
 | BD_MEDI:TYPE1DM_11_3_21_BIRM_CAM:11                  | date column for **type1dm** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:TYPE2DIABETES_11_3_21_BIRM_CAM:12             | column for **type2diabetes** if diagnosed and records the codes                             | Numeric    |
+| B_MEDI:TYPE2DIABETES_11_3_21_BIRM_CAM:12             | column for **type2diabetes** if diagnosed and records the codes                             | Text       |
 | BD_MEDI:TYPE2DIABETES_11_3_21_BIRM_CAM:12            | date column for **type2diabetes** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:CKDSTAGE3TO5_BHAM_CAM:13                      | column for **ckdstage3to5** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:CKDSTAGE3TO5_BHAM_CAM:13                      | column for **ckdstage3to5** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:CKDSTAGE3TO5_BHAM_CAM:13                     | date column for **ckdstage3to5** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:DEPRESSION_BIRM_CAM:14                        | column for **depression** if diagnosed and records the codes                                | Numeric    |
+| B_MEDI:DEPRESSION_BIRM_CAM:14                        | column for **depression** if diagnosed and records the codes                                | Text       |
 | BD_MEDI:DEPRESSION_BIRM_CAM:14                       | date column for **depression** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:ANXIETY_BIRM_CAM:15                           | column for **anxiety** if diagnosed and records the codes                                   | Numeric    |
+| B_MEDI:ANXIETY_BIRM_CAM:15                           | column for **anxiety** if diagnosed and records the codes                                   | Text       |
 | BD_MEDI:ANXIETY_BIRM_CAM:15                          | date column for **anxiety** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:BIPOLAR_BIRM_CAM:16                           | column for **bipolar** if diagnosed and records the codes                                   | Numeric    |
+| B_MEDI:BIPOLAR_BIRM_CAM:16                           | column for **bipolar** if diagnosed and records the codes                                   | Text       |
 | BD_MEDI:BIPOLAR_BIRM_CAM:16                          | date column for **bipolar** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:EATINGDISORDERS_BIRM_CAM:17                   | column for **eatingdisorders** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:EATINGDISORDERS_BIRM_CAM:17                   | column for **eatingdisorders** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:EATINGDISORDERS_BIRM_CAM:17                  | date column for **eatingdisorders** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:SCHIZOPHRENIAMM:18                            | column for **schizophreniamm** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:SCHIZOPHRENIAMM:18                            | column for **schizophreniamm** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:SCHIZOPHRENIAMM:18                           | date column for **schizophreniamm** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:PTSD_TLC_V2:19                                | column for **ptsd** if diagnosed and records the codes                                      | Numeric    |
+| B_MEDI:PTSD_TLC_V2:19                                | column for **ptsd** if diagnosed and records the codes                                      | Text       |
 | BD_MEDI:PTSD_TLC_V2:19                               | date column for **ptsd** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:AUTISM_BIRM_CAM:20                            | column for **autism** if diagnosed and records the codes                                    | Numeric    |
+| B_MEDI:AUTISM_BIRM_CAM:20                            | column for **autism** if diagnosed and records the codes                                    | Text       |
 | BD_MEDI:AUTISM_BIRM_CAM:20                           | date column for **autism** to record when the diagnosed was made.                           | Date       |
-| B_MEDI:ALCOHOLMISUSE_BIRM_CAM:21                     | column for **alcoholmisuse** if diagnosed and records the codes                             | Numeric    |
+| B_MEDI:ALCOHOLMISUSE_BIRM_CAM:21                     | column for **alcoholmisuse** if diagnosed and records the codes                             | Text       |
 | BD_MEDI:ALCOHOLMISUSE_BIRM_CAM:21                    | date column for **alcoholmisuse** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:SUBSTANCEMISUSE_BIRM_CAM:22                   | column for **substancemisuse** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:SUBSTANCEMISUSE_BIRM_CAM:22                   | column for **substancemisuse** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:SUBSTANCEMISUSE_BIRM_CAM:22                  | date column for **substancemisuse** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:CHRONIC_LIVER_DISEASE_ALCOHOL_BIRM_CAM:23     | column for **chronic liver disease alcohol** if diagnosed and records the codes             | Numeric    |
+| B_MEDI:CHRONIC_LIVER_DISEASE_ALCOHOL_BIRM_CAM:23     | column for **chronic liver disease alcohol** if diagnosed and records the codes             | Text       |
 | BD_MEDI:CHRONIC_LIVER_DISEASE_ALCOHOL_BIRM_CAM:23    | date column for **chronic liver disease alcohol** to record when the diagnosed was made.    | Date       |
-| B_MEDI:NAFLD_BIRM_CAM:24                             | column for **nafld** if diagnosed and records the codes                                     | Numeric    |
+| B_MEDI:NAFLD_BIRM_CAM:24                             | column for **nafld** if diagnosed and records the codes                                     | Text       |
 | BD_MEDI:NAFLD_BIRM_CAM:24                            | date column for **nafld** to record when the diagnosed was made.                            | Date       |
-| B_MEDI:OTHER_CHRONIC_LIVER_DISEASE_OPTIMAL:25        | column for **other chronic liver disease** if diagnosed and records the codes               | Numeric    |
+| B_MEDI:OTHER_CHRONIC_LIVER_DISEASE_OPTIMAL:25        | column for **other chronic liver disease** if diagnosed and records the codes               | Text       |
 | BD_MEDI:OTHER_CHRONIC_LIVER_DISEASE_OPTIMAL:25       | date column for **other chronic liver disease** to record when the diagnosed was made.      | Date       |
-| B_MEDI:ULCERATIVE_COLITIS_BIRM_CAM:26                | column for **ulcerative colitis** if diagnosed and records the codes                        | Numeric    |
+| B_MEDI:ULCERATIVE_COLITIS_BIRM_CAM:26                | column for **ulcerative colitis** if diagnosed and records the codes                        | Text       |
 | BD_MEDI:ULCERATIVE_COLITIS_BIRM_CAM:26               | date column for **ulcerative colitis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:CROHNS_DISEASE_BIRM_CAM:27                    | column for **crohns disease** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:CROHNS_DISEASE_BIRM_CAM:27                    | column for **crohns disease** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:CROHNS_DISEASE_BIRM_CAM:27                   | date column for **crohns disease** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:PREVALENT_IBS_BIRM_CAM:28                     | column for **prevalent ibs** if diagnosed and records the codes                             | Numeric    |
+| B_MEDI:PREVALENT_IBS_BIRM_CAM:28                     | column for **prevalent ibs** if diagnosed and records the codes                             | Text       |
 | BD_MEDI:PREVALENT_IBS_BIRM_CAM:28                    | date column for **prevalent ibs** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:ALL_DEMENTIA_BIRM_CAM:29                      | column for **all dementia** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:ALL_DEMENTIA_BIRM_CAM:29                      | column for **all dementia** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:ALL_DEMENTIA_BIRM_CAM:29                     | date column for **all dementia** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:PARKINSONS_BIRM_CAM:30                        | column for **parkinsons** if diagnosed and records the codes                                | Numeric    |
+| B_MEDI:PARKINSONS_BIRM_CAM:30                        | column for **parkinsons** if diagnosed and records the codes                                | Text       |
 | BD_MEDI:PARKINSONS_BIRM_CAM:30                       | date column for **parkinsons** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:EPILEPSY_BIRM_CAM:31                          | column for **epilepsy** if diagnosed and records the codes                                  | Numeric    |
+| B_MEDI:EPILEPSY_BIRM_CAM:31                          | column for **epilepsy** if diagnosed and records the codes                                  | Text       |
 | BD_MEDI:EPILEPSY_BIRM_CAM:31                         | date column for **epilepsy** to record when the diagnosed was made.                         | Date       |
-| B_MEDI:ALLCA_NOBCC_VFINAL_BIRM_CAM:32                | column for **allca nobcc** if diagnosed and records the codes                               | Numeric    |
+| B_MEDI:ALLCA_NOBCC_VFINAL_BIRM_CAM:32                | column for **allca nobcc** if diagnosed and records the codes                               | Text       |
 | BD_MEDI:ALLCA_NOBCC_VFINAL_BIRM_CAM:32               | date column for **allca nobcc** to record when the diagnosed was made.                      | Date       |
-| B_MEDI:LYMPHOMA_PREVALENCE_BIRM_CAM:33               | column for **lymphoma prevalence** if diagnosed and records the codes                       | Numeric    |
+| B_MEDI:LYMPHOMA_PREVALENCE_BIRM_CAM:33               | column for **lymphoma prevalence** if diagnosed and records the codes                       | Text       |
 | BD_MEDI:LYMPHOMA_PREVALENCE_BIRM_CAM:33              | date column for **lymphoma prevalence** to record when the diagnosed was made.              | Date       |
-| B_MEDI:LEUKAEMIA_PREVALENCE_BIRM_CAM:34              | column for **leukaemia prevalence** if diagnosed and records the codes                      | Numeric    |
+| B_MEDI:LEUKAEMIA_PREVALENCE_BIRM_CAM:34              | column for **leukaemia prevalence** if diagnosed and records the codes                      | Text       |
 | BD_MEDI:LEUKAEMIA_PREVALENCE_BIRM_CAM:34             | date column for **leukaemia prevalence** to record when the diagnosed was made.             | Date       |
-| B_MEDI:PLASMACELL_NEOPLASM_BIRM_CAM:35               | column for **plasmacell neoplasm** if diagnosed and records the codes                       | Numeric    |
+| B_MEDI:PLASMACELL_NEOPLASM_BIRM_CAM:35               | column for **plasmacell neoplasm** if diagnosed and records the codes                       | Text       |
 | BD_MEDI:PLASMACELL_NEOPLASM_BIRM_CAM:35              | date column for **plasmacell neoplasm** to record when the diagnosed was made.              | Date       |
-| B_MEDI:ASTHMA_PUSHASTHMA:36                          | column for **asthma pushasthma** if diagnosed and records the codes                         | Numeric    |
+| B_MEDI:ASTHMA_PUSHASTHMA:36                          | column for **asthma pushasthma** if diagnosed and records the codes                         | Text       |
 | BD_MEDI:ASTHMA_PUSHASTHMA:36                         | date column for **asthma pushasthma** to record when the diagnosed was made.                | Date       |
-| B_MEDI:COPD_BIRM_CAM:37                              | column for **copd** if diagnosed and records the codes                                      | Numeric    |
+| B_MEDI:COPD_BIRM_CAM:37                              | column for **copd** if diagnosed and records the codes                                      | Text       |
 | BD_MEDI:COPD_BIRM_CAM:37                             | date column for **copd** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:OSA_BIRM_CAM:38                               | column for **osa** if diagnosed and records the codes                                       | Numeric    |
+| B_MEDI:OSA_BIRM_CAM:38                               | column for **osa** if diagnosed and records the codes                                       | Text       |
 | BD_MEDI:OSA_BIRM_CAM:38                              | date column for **osa** to record when the diagnosed was made.                              | Date       |
-| B_MEDI:BRONCHIECTASIS_BIRM_CAM:39                    | column for **bronchiectasis** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:BRONCHIECTASIS_BIRM_CAM:39                    | column for **bronchiectasis** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:BRONCHIECTASIS_BIRM_CAM:39                   | date column for **bronchiectasis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:CYSTICFIBROSIS_BIRM_CAM:40                    | column for **cysticfibrosis** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:CYSTICFIBROSIS_BIRM_CAM:40                    | column for **cysticfibrosis** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:CYSTICFIBROSIS_BIRM_CAM:40                   | date column for **cysticfibrosis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:ATOPICECZEMA_BIRM_CAM:41                      | column for **atopiceczema** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:ATOPICECZEMA_BIRM_CAM:41                      | column for **atopiceczema** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:ATOPICECZEMA_BIRM_CAM:41                     | date column for **atopiceczema** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:ALLERGICRHINITISCONJ_BIRM_CAM:42              | column for **allergicrhinitisconj** if diagnosed and records the codes                      | Numeric    |
+| B_MEDI:ALLERGICRHINITISCONJ_BIRM_CAM:42              | column for **allergicrhinitisconj** if diagnosed and records the codes                      | Text       |
 | BD_MEDI:ALLERGICRHINITISCONJ_BIRM_CAM:42             | date column for **allergicrhinitisconj** to record when the diagnosed was made.             | Date       |
-| B_MEDI:HIVAIDS_BIRM_CAM:43                           | column for **hivaids** if diagnosed and records the codes                                   | Numeric    |
+| B_MEDI:HIVAIDS_BIRM_CAM:43                           | column for **hivaids** if diagnosed and records the codes                                   | Text       |
 | BD_MEDI:HIVAIDS_BIRM_CAM:43                          | date column for **hivaids** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:OSTEOPOROSIS_BIRM_CAM:44                      | column for **osteoporosis** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:OSTEOPOROSIS_BIRM_CAM:44                      | column for **osteoporosis** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:OSTEOPOROSIS_BIRM_CAM:44                     | date column for **osteoporosis** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:OSTEOARTHRITIS_MM_BIRM_CAM:45                 | column for **osteoarthritis** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:OSTEOARTHRITIS_MM_BIRM_CAM:45                 | column for **osteoarthritis** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:OSTEOARTHRITIS_MM_BIRM_CAM:45                | date column for **osteoarthritis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:RHEUMATOIDARTHRITIS_MM_BIRM_CAM:46            | column for **rheumatoidarthritis** if diagnosed and records the codes                       | Numeric    |
+| B_MEDI:RHEUMATOIDARTHRITIS_MM_BIRM_CAM:46            | column for **rheumatoidarthritis** if diagnosed and records the codes                       | Text       |
 | BD_MEDI:RHEUMATOIDARTHRITIS_MM_BIRM_CAM:46           | date column for **rheumatoidarthritis** to record when the diagnosed was made.              | Date       |
-| B_MEDI:GOUT_MM_BIRM_CAM:47                           | column for **gout** if diagnosed and records the codes                                      | Numeric    |
+| B_MEDI:GOUT_MM_BIRM_CAM:47                           | column for **gout** if diagnosed and records the codes                                      | Text       |
 | BD_MEDI:GOUT_MM_BIRM_CAM:47                          | date column for **gout** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:SYSTEMIC_LUPUS_ERYTHEMATOSUS_MM_BIRM_CAM:48   | column for **systemic lupus erythematosus** if diagnosed and records the codes              | Numeric    |
+| B_MEDI:SYSTEMIC_LUPUS_ERYTHEMATOSUS_MM_BIRM_CAM:48   | column for **systemic lupus erythematosus** if diagnosed and records the codes              | Text       |
 | BD_MEDI:SYSTEMIC_LUPUS_ERYTHEMATOSUS_MM_BIRM_CAM:48  | date column for **systemic lupus erythematosus** to record when the diagnosed was made.     | Date       |
-| B_MEDI:SJOGRENSSYNDROME_BHAM_CAM:49                  | column for **sjogrenssyndrome** if diagnosed and records the codes                          | Numeric    |
+| B_MEDI:SJOGRENSSYNDROME_BHAM_CAM:49                  | column for **sjogrenssyndrome** if diagnosed and records the codes                          | Text       |
 | BD_MEDI:SJOGRENSSYNDROME_BHAM_CAM:49                 | date column for **sjogrenssyndrome** to record when the diagnosed was made.                 | Date       |
-| B_MEDI:SYSTEMIC_SCLEROSIS_MM_BIRM_CAM:50             | column for **systemic sclerosis** if diagnosed and records the codes                        | Numeric    |
+| B_MEDI:SYSTEMIC_SCLEROSIS_MM_BIRM_CAM:50             | column for **systemic sclerosis** if diagnosed and records the codes                        | Text       |
 | BD_MEDI:SYSTEMIC_SCLEROSIS_MM_BIRM_CAM:50            | date column for **systemic sclerosis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:PMRANDGCA_MM_BIRM_CAM:51                      | column for **pmrandgca** if diagnosed and records the codes                                 | Numeric    |
+| B_MEDI:PMRANDGCA_MM_BIRM_CAM:51                      | column for **pmrandgca** if diagnosed and records the codes                                 | Text       |
 | BD_MEDI:PMRANDGCA_MM_BIRM_CAM:51                     | date column for **pmrandgca** to record when the diagnosed was made.                        | Date       |
-| B_MEDI:CHRONICFATIGUESYNDROMEMM_BIRM_CAM:52          | column for **chronicfatiguesyndromemm** if diagnosed and records the codes                  | Numeric    |
+| B_MEDI:CHRONICFATIGUESYNDROMEMM_BIRM_CAM:52          | column for **chronicfatiguesyndromemm** if diagnosed and records the codes                  | Text       |
 | BD_MEDI:CHRONICFATIGUESYNDROMEMM_BIRM_CAM:52         | date column for **chronicfatiguesyndromemm** to record when the diagnosed was made.         | Date       |
-| B_MEDI:FIBROMYALGIA_BHAM_CAM:53                      | column for **fibromyalgia** if diagnosed and records the codes                              | Numeric    |
+| B_MEDI:FIBROMYALGIA_BHAM_CAM:53                      | column for **fibromyalgia** if diagnosed and records the codes                              | Text       |
 | BD_MEDI:FIBROMYALGIA_BHAM_CAM:53                     | date column for **fibromyalgia** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:POLYCYSTIC_OVARIAN_SYNDROME_PCOS_BIRM_CAM:54  | column for **polycystic ovarian syndrome pcos** if diagnosed and records the codes          | Numeric    |
+| B_MEDI:POLYCYSTIC_OVARIAN_SYNDROME_PCOS_BIRM_CAM:54  | column for **polycystic ovarian syndrome pcos** if diagnosed and records the codes          | Text       |
 | BD_MEDI:POLYCYSTIC_OVARIAN_SYNDROME_PCOS_BIRM_CAM:54 | date column for **polycystic ovarian syndrome pcos** to record when the diagnosed was made. | Date       |
-| B_MEDI:ENDOMETRIOSIS_ADENOMYOSIS_BIRM_CAM:55         | column for **endometriosis adenomyosis** if diagnosed and records the codes                 | Numeric    |
+| B_MEDI:ENDOMETRIOSIS_ADENOMYOSIS_BIRM_CAM:55         | column for **endometriosis adenomyosis** if diagnosed and records the codes                 | Text       |
 | BD_MEDI:ENDOMETRIOSIS_ADENOMYOSIS_BIRM_CAM:55        | date column for **endometriosis adenomyosis** to record when the diagnosed was made.        | Date       |
-| B_MEDI:HYPOTHYROIDISM_DRAFT_V1_BIRM_CAM:56           | column for **hypothyroidism** if diagnosed and records the codes                            | Numeric    |
+| B_MEDI:HYPOTHYROIDISM_DRAFT_V1_BIRM_CAM:56           | column for **hypothyroidism** if diagnosed and records the codes                            | Text       |
 | BD_MEDI:HYPOTHYROIDISM_DRAFT_V1_BIRM_CAM:56          | date column for **hypothyroidism** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:HYPERTHYROIDISM_V2_BIRM_CAM:57                | column for **hyperthyroidism** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:HYPERTHYROIDISM_V2_BIRM_CAM:57                | column for **hyperthyroidism** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:HYPERTHYROIDISM_V2_BIRM_CAM:57               | date column for **hyperthyroidism** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:ADDISON_DISEASE_BIRM_CAM:58                   | column for **addison disease** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:ADDISON_DISEASE_BIRM_CAM:58                   | column for **addison disease** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:ADDISON_DISEASE_BIRM_CAM:58                  | date column for **addison disease** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:MS_120421_BIRM_CAM:59                         | column for **ms** if diagnosed and records the codes                                        | Numeric    |
+| B_MEDI:MS_120421_BIRM_CAM:59                         | column for **ms** if diagnosed and records the codes                                        | Text       |
 | BD_MEDI:MS_120421_BIRM_CAM:59                        | date column for **ms** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:VISUAL_IMPAIRMENT_BIRM_CAM:60                 | column for **visual impairment** if diagnosed and records the codes                         | Numeric    |
+| B_MEDI:VISUAL_IMPAIRMENT_BIRM_CAM:60                 | column for **visual impairment** if diagnosed and records the codes                         | Text       |
 | BD_MEDI:VISUAL_IMPAIRMENT_BIRM_CAM:60                | date column for **visual impairment** to record when the diagnosed was made.                | Date       |
-| B_MEDI:ANY_DEAFNESS_HEARING_LOSS_BIRM_CAM:61         | column for **any deafness hearing loss** if diagnosed and records the codes                 | Numeric    |
+| B_MEDI:ANY_DEAFNESS_HEARING_LOSS_BIRM_CAM:61         | column for **any deafness hearing loss** if diagnosed and records the codes                 | Text       |
 | BD_MEDI:ANY_DEAFNESS_HEARING_LOSS_BIRM_CAM:61        | date column for **any deafness hearing loss** to record when the diagnosed was made.        | Date       |
-| B_MEDI:MENIERESDISEASE_BIRM_CAM:62                   | column for **menieresdisease** if diagnosed and records the codes                           | Numeric    |
+| B_MEDI:MENIERESDISEASE_BIRM_CAM:62                   | column for **menieresdisease** if diagnosed and records the codes                           | Text       |
 | BD_MEDI:MENIERESDISEASE_BIRM_CAM:62                  | date column for **menieresdisease** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:PERIPHERAL_NEUROPATHY_BIRM_CAM:63             | column for **peripheral neuropathy** if diagnosed and records the codes                     | Numeric    |
+| B_MEDI:PERIPHERAL_NEUROPATHY_BIRM_CAM:63             | column for **peripheral neuropathy** if diagnosed and records the codes                     | Text       |
 | BD_MEDI:PERIPHERAL_NEUROPATHY_BIRM_CAM:63            | date column for **peripheral neuropathy** to record when the diagnosed was made.            | Date       |
-| B_MEDI:LEARNINGDISABILITY_BIRM_CAM:64                | column for **learningdisability** if diagnosed and records the codes                        | Numeric    |
+| B_MEDI:LEARNINGDISABILITY_BIRM_CAM:64                | column for **learningdisability** if diagnosed and records the codes                        | Text       |
 | BD_MEDI:LEARNINGDISABILITY_BIRM_CAM:64               | date column for **learningdisability** to record when the diagnosed was made.               | Date       |
-| B_MEDI:DOWNSSYNDROME_BIRM_CAM:65                     | column for **downssyndrome** if diagnosed and records the codes                             | Numeric    |
+| B_MEDI:DOWNSSYNDROME_BIRM_CAM:65                     | column for **downssyndrome** if diagnosed and records the codes                             | Text       |
 | BD_MEDI:DOWNSSYNDROME_BIRM_CAM:65                    | date column for **downssyndrome** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:PERNICIOUSANAEMIA_BIRM_CAM:66                 | column for **perniciousanaemia** if diagnosed and records the codes                         | Numeric    |
+| B_MEDI:PERNICIOUSANAEMIA_BIRM_CAM:66                 | column for **perniciousanaemia** if diagnosed and records the codes                         | Text       |
 | BD_MEDI:PERNICIOUSANAEMIA_BIRM_CAM:66                | date column for **perniciousanaemia** to record when the diagnosed was made.                | Date       |
-| B_MEDI:SICKLE_CELL_DISEASE_BIRM_CAM:67               | column for **sickle cell disease** if diagnosed and records the codes                       | Numeric    |
+| B_MEDI:SICKLE_CELL_DISEASE_BIRM_CAM:67               | column for **sickle cell disease** if diagnosed and records the codes                       | Text       |
 | BD_MEDI:SICKLE_CELL_DISEASE_BIRM_CAM:67              | date column for **sickle cell disease** to record when the diagnosed was made.              | Date       |
-| B_MEDI:PSORIASIS_BIRM_CAM:68                         | column for **psoriasis** if diagnosed and records the codes                                 | Numeric    |
+| B_MEDI:PSORIASIS_BIRM_CAM:68                         | column for **psoriasis** if diagnosed and records the codes                                 | Text       |
 | BD_MEDI:PSORIASIS_BIRM_CAM:68                        | date column for **psoriasis** to record when the diagnosed was made.                        | Date       |
-| B_MEDI:PSORIATICARTHRITIS2021_MM_BIRM_CAM:69         | column for **psoriaticarthritis** if diagnosed and records the codes                        | Numeric    |
+| B_MEDI:PSORIATICARTHRITIS2021_MM_BIRM_CAM:69         | column for **psoriaticarthritis** if diagnosed and records the codes                        | Text       |
 | BD_MEDI:PSORIATICARTHRITIS2021_MM_BIRM_CAM:69        | date column for **psoriaticarthritis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:ILD_SH_20092020_BIRM_CAM:70                   | column for **ild sh** if diagnosed and records the codes                                    | Numeric    |
+| B_MEDI:ILD_SH_20092020_BIRM_CAM:70                   | column for **ild sh** if diagnosed and records the codes                                    | Text       |
 | BD_MEDI:ILD_SH_20092020_BIRM_CAM:70                  | date column for **ild sh** to record when the diagnosed was made.                           | Date       |
-| B_MEDI:HAEMOCHROMATOSIS_BIRM_CAM:71                  | column for **haemochromatosis** if diagnosed and records the codes                          | Numeric    |
+| B_MEDI:HAEMOCHROMATOSIS_BIRM_CAM:71                  | column for **haemochromatosis** if diagnosed and records the codes                          | Text       |
 | BD_MEDI:HAEMOCHROMATOSIS_BIRM_CAM:71                 | date column for **haemochromatosis** to record when the diagnosed was made.                 | Date       |
 ## License
 
