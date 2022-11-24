@@ -4,7 +4,14 @@
 
 DExtER prints one line per patient for new data extractions, for any additional baseline/outcome variables and time-series data. Many of the data fields printed carry a prefix (and sometimes a suffix as well) to help users easily identify what type of variables they are. Sections below provide a detailed overview of the methodology used for data extraction, the codelists used and the column description.
 
-## Citation information
+## :information_source: Data Audit
+
+**NOTE**
+
+* Please do not copy the data to your local device. Mount the RDS drive to your device and then read it to memory. See here for how to mount: [mac](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-the-rds-via-macos.aspx), [windows](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-rds-via-windows.aspx), [linux](https://intranet.birmingham.ac.uk/it/teams/infrastructure/research/bear/research-data-service/rds/connecting-to-rds-via-linux.aspx)
+
+* The data access is timestamped logged and accessible to project owner only. 
+
 
 ## Database Sources and Linkage
 #### Database
