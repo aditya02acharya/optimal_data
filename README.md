@@ -19,7 +19,19 @@ DExtER prints one line per patient for new data extractions, for any additional 
 
 ## Methodology
 
+### Study design
+
+The dataset consist of a population-based cohort study recruited from general practices that contribute data to the Clinical Practice Research Datalink (CPRD) Aurum database. CPRD is a real-world research service supporting retrospective and prospective public health and clinical studies. CPRD is jointly sponsored by the Medicines and Healthcare Products Regulatory Agency and the National Institute for Health Research (NIHR), as part of the Department of Health and Social Care. CPRD collects anonymised patient data from a network of general practitioners (GP) across the UK. Primary care data are linked to a range of other health-related data to provide a longitudinal, representative UK population health dataset. The data in CPRD Aurum encompass 40 million research acceptable patients, including 13 million currently registered patients.
+
+ CPRD data is linked to hospital episode statistics (HES) records and Indices of miltiple deprivations (IMD) records.
+
+### Population and setting
+
+Eligible practices and participants are identified from the CPRD Aurum database following data extraction using the Data Extraction for Epidemiological Research tool (DExtER). Participants selected in the study are actively registered from 1 January 2005 and have at least 12 months of data prior to 1 January 2005. The study end date was 30 May 2022. Patients aged from 0 to 115 year(s)at the start of the study were included. We collected data on patient socio-demographic factors (age, sex, ethnic group, socioeconomic status and lifestyle information) and a comprehensive list of comorbidities, treatments, physical measurements and lab results.
+
 ### Codelist
+
+
 
 ## Table One
 |                        |               | Missing   | Overall          | mortality (0)    | mortality (1)    |
