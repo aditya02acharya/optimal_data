@@ -43,33 +43,37 @@ Eligible practices and participants are identified from the CPRD Aurum database 
 
 
 ## Table One
-|                        |               | Missing   | Overall          | mortality (0)    | mortality (1)    |
-|------------------------|---------------|-----------|------------------|------------------|------------------|
-| **n**                  |               |           | 546906           | 508216           | 38690            |
-| **sex, n (%)**         | F             | 0         | 278321 (50.9)    | 258683 (50.9)    | 19638 (50.8)     |
-|                        | I             |           | 24 (0.0)         | 24 (0.0)         |                  |
-|                        | M             |           | 268561 (49.1)    | 249509 (49.1)    | 19052 (49.2)     |
-| **age, median [Q1,Q3]**|               | 0         | 32.5 [17.7,50.1] | 30.7 [16.2,45.5] | 73.5 [62.5,81.5] |
-| **ethnicity, n (%)**   | BLACK         | 0         | 12714 (2.3)      | 12483 (2.5)      | 231 (0.6)        |
-|                        | MISSING       |           | 157800 (28.9)    | 141135 (27.8)    | 16665 (43.1)     |
-|                        | MIXED_RACE    |           | 6086 (1.1)       | 6012 (1.2)       | 74 (0.2)         |
-|                        | OTHERS        |           | 8723 (1.6)       | 8626 (1.7)       | 97 (0.3)         |
-|                        | SOUTH_ASIAN   |           | 32346 (5.9)      | 31912 (6.3)      | 434 (1.1)        |
-|                        | WHITE         |           | 329237 (60.2)    | 308048 (60.6)    | 21189 (54.8)     |
-| **country, n (%)**     | England       | 0         | 546906 (100.0)   | 508216 (100.0)   | 38690 (100.0)    |
-| **health_auth, n (%)** | North East    | 0         | 38264 (7.0)      | 34315 (6.8)      | 3949 (10.2)      |
-|                        | North West    |           | 175697 (32.1)    | 161074 (31.7)    | 14623 (37.8)     |
-|                        | West Midlands |           | 87683 (16.0)     | 80784 (15.9)     | 6899 (17.8)      |
-|                        | South West    |           | 96429 (17.6)     | 93063 (18.3)     | 3366 (8.7)       |
-|                        | South Central |           | 118788 (21.7)    | 111428 (21.9)    | 7360 (19.0)      |
-|                        | London        |           | 30045 (5.5)      | 27552 (5.4)      | 2493 (6.4)       |
-| **mortality, n (%)**   | 0             | 0         | 508216 (92.9)    | 508216 (100.0)   |                  |
-|                        | 1             |           | 38690 (7.1)      |                  | 38690 (100.0)    |
-| **IMD, n (%)**         | 1.0           | 37354     | 85148 (16.7)     | 78691 (16.6)     | 6457 (17.9)      |
-|                        | 2.0           |           | 118480 (23.3)    | 110284 (23.3)    | 8196 (22.7)      |
-|                        | 3.0           |           | 80517 (15.8)     | 74875 (15.8)     | 5642 (15.6)      |
-|                        | 4.0           |           | 113187 (22.2)    | 106223 (22.4)    | 6964 (19.3)      |
-|                        | 5.0           |           | 112220 (22.0)    | 103372 (21.8)    | 8848 (24.5)      |
+|                     |                        | Overall          | mortality (0)    | mortality (1)    |
+|---------------------|------------------------|------------------|------------------|------------------|
+| n                   |                        | 28121517         | 26492417         | 1629100          |
+| sex, n (%)          | F                      | 14278868 (50.8)  | 13451088 (50.8)  | 827780 (50.8)    |
+|                     | I                      | 683 (0.0)        | 674 (0.0)        | 9 (0.0)          |
+|                     | M                      | 13841966 (49.2)  | 13040655 (49.2)  | 801311 (49.2)    |
+| age, median [Q1,Q3] |                        | 30.5 [18.7,47.1] | 29.4 [17.3,43.5] | 73.5 [62.5,82.5] |
+| ethnicity, n (%)    | ASIAN                  | 2267997 (8.1)    | 2232947 (8.4)    | 35050 (2.2)      |
+|                     | BLACK                  | 1156866 (4.1)    | 1134329 (4.3)    | 22537 (1.4)      |
+|                     | MISSING                | 8058247 (28.7)   | 7400737 (27.9)   | 657510 (40.4)    |
+|                     | MIXED                  | 485838 (1.7)     | 480679 (1.8)     | 5159 (0.3)       |
+|                     | OTHER                  | 422374 (1.5)     | 418678 (1.6)     | 3696 (0.2)       |
+|                     | WHITE                  | 15730195 (55.9)  | 14825047 (56.0)  | 905148 (55.6)    |
+| country, n (%)      | E                      | 28025034 (99.7)  | 26402380 (99.7)  | 1622654 (99.6)   |
+|                     | N                      | 96483 (0.3)      | 90037 (0.3)      | 6446 (0.4)       |
+| health_auth, n (%)  | East Midlands          | 752201 (2.7)     | 716400 (2.7)     | 35801 (2.2)      |
+|                     | East of England        | 1129094 (4.0)    | 1055906 (4.0)    | 73188 (4.5)      |
+|                     | London                 | 6678166 (23.8)   | 6466952 (24.4)   | 211214 (13.0)    |
+|                     | North East             | 765091 (2.7)     | 702461 (2.7)     | 62630 (3.8)      |
+|                     | North West             | 4667234 (16.6)   | 4318755 (16.3)   | 348479 (21.4)    |
+|                     | Northern Ireland       | 96483 (0.3)      | 90037 (0.3)      | 6446 (0.4)       |
+|                     | South East             | 5639663 (20.1)   | 5301087 (20.0)   | 338576 (20.8)    |
+|                     | South West             | 3258979 (11.6)   | 3050066 (11.5)   | 208913 (12.8)    |
+|                     | West Midlands          | 4118374 (14.7)   | 3838944 (14.5)   | 279430 (17.2)    |
+|                     | Yorkshire & The Humber | 990740 (3.5)     | 927869 (3.5)     | 62871 (3.9)      |
+| IMD, n (%)          | MISSING                | 2442913 (8.7)    | 2323746 (8.8)    | 119167 (7.3)     |
+|                     | 1.0                    | 4789813 (17.0)   | 4495980 (17.0)   | 293833 (18.0)    |
+|                     | 2.0                    | 4981882 (17.7)   | 4671058 (17.6)   | 310824 (19.1)    |
+|                     | 3.0                    | 5072397 (18.0)   | 4777996 (18.0)   | 294401 (18.1)    |
+|                     | 4.0                    | 5650727 (20.1)   | 5354077 (20.2)   | 296650 (18.2)    |
+|                     | 5.0                    | 5183785 (18.4)   | 4869560 (18.4)   | 314225 (19.3)    |
 
 ## Data structure and conventions
 ### Data Types
@@ -108,152 +112,10 @@ Each column/variable in the extracted datasets can be classified into 4 data typ
 |IMD                 | Indices of multiple deprivation  (essentially a measure of poverty).                                      | Categorical|
 
 #### Baseline information
-| Column name        | Description                                                                                                                   | Data type  |
-|:-------------------|:------------------------------------------------------------------------------------------------------------------------------|:-----------|
-| B_MEDI:HF_BHAM_CAM_FINAL:0                           | column for **hf** if diagnosed and records the codes                                        | Text       |
-| BD_MEDI:HF_BHAM_CAM_FINAL:0                          | date column for **hf** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:AF_BHAM_CAM:1                                 | column for **af** if diagnosed and records the codes                                        | Text       |
-| BD_MEDI:AF_BHAM_CAM:1                                | date column for **af** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:ISCHAEMICSTROKE_BHAM_CAM:2                    | column for **ischaemicstroke** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:ISCHAEMICSTROKE_BHAM_CAM:2                   | date column for **ischaemicstroke** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:STROKEUNSPECIFIED_BHAM_CAM:3                  | column for **strokeunspecified** if diagnosed and records the codes                         | Text       |
-| BD_MEDI:STROKEUNSPECIFIED_BHAM_CAM:3                 | date column for **strokeunspecified** to record when the diagnosed was made.                | Date       |
-| B_MEDI:STROKE_HAEMRGIC_BHAM_CAM:4                    | column for **stroke haemrgic** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:STROKE_HAEMRGIC_BHAM_CAM:4                   | date column for **stroke haemrgic** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:HYPERTENSION_BHAM_CAM:5                       | column for **hypertension** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:HYPERTENSION_BHAM_CAM:5                      | date column for **hypertension** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:MINFARCTION_BHAM_CAM:6                        | column for **minfarction** if diagnosed and records the codes                               | Text       |
-| BD_MEDI:MINFARCTION_BHAM_CAM:6                       | date column for **minfarction** to record when the diagnosed was made.                      | Date       |
-| B_MEDI:IHD_NOMI_BHAM_CAM:7                           | column for **ihd nomi** if diagnosed and records the codes                                  | Text       |
-| BD_MEDI:IHD_NOMI_BHAM_CAM:7                          | date column for **ihd nomi** to record when the diagnosed was made.                         | Date       |
-| B_MEDI:PAD_STRICT_BHAM_CAM:8                         | column for **pad strict** if diagnosed and records the codes                                | Text       |
-| BD_MEDI:PAD_STRICT_BHAM_CAM:8                        | date column for **pad strict** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:VALVULARDISEASES_BHAM_CAM:9                   | column for **valvulardiseases** if diagnosed and records the codes                          | Text       |
-| BD_MEDI:VALVULARDISEASES_BHAM_CAM:9                  | date column for **valvulardiseases** to record when the diagnosed was made.                 | Date       |
-| B_MEDI:AORTICANEURYSM_BHAM_CAM:10                    | column for **aorticaneurysm** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:AORTICANEURYSM_BHAM_CAM:10                   | date column for **aorticaneurysm** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:TYPE1DM_11_3_21_BIRM_CAM:11                   | column for **type1dm** if diagnosed and records the codes                                   | Text       |
-| BD_MEDI:TYPE1DM_11_3_21_BIRM_CAM:11                  | date column for **type1dm** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:TYPE2DIABETES_11_3_21_BIRM_CAM:12             | column for **type2diabetes** if diagnosed and records the codes                             | Text       |
-| BD_MEDI:TYPE2DIABETES_11_3_21_BIRM_CAM:12            | date column for **type2diabetes** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:CKDSTAGE3TO5_BHAM_CAM:13                      | column for **ckdstage3to5** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:CKDSTAGE3TO5_BHAM_CAM:13                     | date column for **ckdstage3to5** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:DEPRESSION_BIRM_CAM:14                        | column for **depression** if diagnosed and records the codes                                | Text       |
-| BD_MEDI:DEPRESSION_BIRM_CAM:14                       | date column for **depression** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:ANXIETY_BIRM_CAM:15                           | column for **anxiety** if diagnosed and records the codes                                   | Text       |
-| BD_MEDI:ANXIETY_BIRM_CAM:15                          | date column for **anxiety** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:BIPOLAR_BIRM_CAM:16                           | column for **bipolar** if diagnosed and records the codes                                   | Text       |
-| BD_MEDI:BIPOLAR_BIRM_CAM:16                          | date column for **bipolar** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:EATINGDISORDERS_BIRM_CAM:17                   | column for **eatingdisorders** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:EATINGDISORDERS_BIRM_CAM:17                  | date column for **eatingdisorders** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:SCHIZOPHRENIAMM:18                            | column for **schizophreniamm** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:SCHIZOPHRENIAMM:18                           | date column for **schizophreniamm** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:PTSD_TLC_V2:19                                | column for **ptsd** if diagnosed and records the codes                                      | Text       |
-| BD_MEDI:PTSD_TLC_V2:19                               | date column for **ptsd** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:AUTISM_BIRM_CAM:20                            | column for **autism** if diagnosed and records the codes                                    | Text       |
-| BD_MEDI:AUTISM_BIRM_CAM:20                           | date column for **autism** to record when the diagnosed was made.                           | Date       |
-| B_MEDI:ALCOHOLMISUSE_BIRM_CAM:21                     | column for **alcoholmisuse** if diagnosed and records the codes                             | Text       |
-| BD_MEDI:ALCOHOLMISUSE_BIRM_CAM:21                    | date column for **alcoholmisuse** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:SUBSTANCEMISUSE_BIRM_CAM:22                   | column for **substancemisuse** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:SUBSTANCEMISUSE_BIRM_CAM:22                  | date column for **substancemisuse** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:CHRONIC_LIVER_DISEASE_ALCOHOL_BIRM_CAM:23     | column for **chronic liver disease alcohol** if diagnosed and records the codes             | Text       |
-| BD_MEDI:CHRONIC_LIVER_DISEASE_ALCOHOL_BIRM_CAM:23    | date column for **chronic liver disease alcohol** to record when the diagnosed was made.    | Date       |
-| B_MEDI:NAFLD_BIRM_CAM:24                             | column for **nafld** if diagnosed and records the codes                                     | Text       |
-| BD_MEDI:NAFLD_BIRM_CAM:24                            | date column for **nafld** to record when the diagnosed was made.                            | Date       |
-| B_MEDI:OTHER_CHRONIC_LIVER_DISEASE_OPTIMAL:25        | column for **other chronic liver disease** if diagnosed and records the codes               | Text       |
-| BD_MEDI:OTHER_CHRONIC_LIVER_DISEASE_OPTIMAL:25       | date column for **other chronic liver disease** to record when the diagnosed was made.      | Date       |
-| B_MEDI:ULCERATIVE_COLITIS_BIRM_CAM:26                | column for **ulcerative colitis** if diagnosed and records the codes                        | Text       |
-| BD_MEDI:ULCERATIVE_COLITIS_BIRM_CAM:26               | date column for **ulcerative colitis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:CROHNS_DISEASE_BIRM_CAM:27                    | column for **crohns disease** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:CROHNS_DISEASE_BIRM_CAM:27                   | date column for **crohns disease** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:PREVALENT_IBS_BIRM_CAM:28                     | column for **prevalent ibs** if diagnosed and records the codes                             | Text       |
-| BD_MEDI:PREVALENT_IBS_BIRM_CAM:28                    | date column for **prevalent ibs** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:ALL_DEMENTIA_BIRM_CAM:29                      | column for **all dementia** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:ALL_DEMENTIA_BIRM_CAM:29                     | date column for **all dementia** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:PARKINSONS_BIRM_CAM:30                        | column for **parkinsons** if diagnosed and records the codes                                | Text       |
-| BD_MEDI:PARKINSONS_BIRM_CAM:30                       | date column for **parkinsons** to record when the diagnosed was made.                       | Date       |
-| B_MEDI:EPILEPSY_BIRM_CAM:31                          | column for **epilepsy** if diagnosed and records the codes                                  | Text       |
-| BD_MEDI:EPILEPSY_BIRM_CAM:31                         | date column for **epilepsy** to record when the diagnosed was made.                         | Date       |
-| B_MEDI:ALLCA_NOBCC_VFINAL_BIRM_CAM:32                | column for **allca nobcc** if diagnosed and records the codes                               | Text       |
-| BD_MEDI:ALLCA_NOBCC_VFINAL_BIRM_CAM:32               | date column for **allca nobcc** to record when the diagnosed was made.                      | Date       |
-| B_MEDI:LYMPHOMA_PREVALENCE_BIRM_CAM:33               | column for **lymphoma prevalence** if diagnosed and records the codes                       | Text       |
-| BD_MEDI:LYMPHOMA_PREVALENCE_BIRM_CAM:33              | date column for **lymphoma prevalence** to record when the diagnosed was made.              | Date       |
-| B_MEDI:LEUKAEMIA_PREVALENCE_BIRM_CAM:34              | column for **leukaemia prevalence** if diagnosed and records the codes                      | Text       |
-| BD_MEDI:LEUKAEMIA_PREVALENCE_BIRM_CAM:34             | date column for **leukaemia prevalence** to record when the diagnosed was made.             | Date       |
-| B_MEDI:PLASMACELL_NEOPLASM_BIRM_CAM:35               | column for **plasmacell neoplasm** if diagnosed and records the codes                       | Text       |
-| BD_MEDI:PLASMACELL_NEOPLASM_BIRM_CAM:35              | date column for **plasmacell neoplasm** to record when the diagnosed was made.              | Date       |
-| B_MEDI:ASTHMA_PUSHASTHMA:36                          | column for **asthma pushasthma** if diagnosed and records the codes                         | Text       |
-| BD_MEDI:ASTHMA_PUSHASTHMA:36                         | date column for **asthma pushasthma** to record when the diagnosed was made.                | Date       |
-| B_MEDI:COPD_BIRM_CAM:37                              | column for **copd** if diagnosed and records the codes                                      | Text       |
-| BD_MEDI:COPD_BIRM_CAM:37                             | date column for **copd** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:OSA_BIRM_CAM:38                               | column for **osa** if diagnosed and records the codes                                       | Text       |
-| BD_MEDI:OSA_BIRM_CAM:38                              | date column for **osa** to record when the diagnosed was made.                              | Date       |
-| B_MEDI:BRONCHIECTASIS_BIRM_CAM:39                    | column for **bronchiectasis** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:BRONCHIECTASIS_BIRM_CAM:39                   | date column for **bronchiectasis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:CYSTICFIBROSIS_BIRM_CAM:40                    | column for **cysticfibrosis** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:CYSTICFIBROSIS_BIRM_CAM:40                   | date column for **cysticfibrosis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:ATOPICECZEMA_BIRM_CAM:41                      | column for **atopiceczema** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:ATOPICECZEMA_BIRM_CAM:41                     | date column for **atopiceczema** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:ALLERGICRHINITISCONJ_BIRM_CAM:42              | column for **allergicrhinitisconj** if diagnosed and records the codes                      | Text       |
-| BD_MEDI:ALLERGICRHINITISCONJ_BIRM_CAM:42             | date column for **allergicrhinitisconj** to record when the diagnosed was made.             | Date       |
-| B_MEDI:HIVAIDS_BIRM_CAM:43                           | column for **hivaids** if diagnosed and records the codes                                   | Text       |
-| BD_MEDI:HIVAIDS_BIRM_CAM:43                          | date column for **hivaids** to record when the diagnosed was made.                          | Date       |
-| B_MEDI:OSTEOPOROSIS_BIRM_CAM:44                      | column for **osteoporosis** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:OSTEOPOROSIS_BIRM_CAM:44                     | date column for **osteoporosis** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:OSTEOARTHRITIS_MM_BIRM_CAM:45                 | column for **osteoarthritis** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:OSTEOARTHRITIS_MM_BIRM_CAM:45                | date column for **osteoarthritis** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:RHEUMATOIDARTHRITIS_MM_BIRM_CAM:46            | column for **rheumatoidarthritis** if diagnosed and records the codes                       | Text       |
-| BD_MEDI:RHEUMATOIDARTHRITIS_MM_BIRM_CAM:46           | date column for **rheumatoidarthritis** to record when the diagnosed was made.              | Date       |
-| B_MEDI:GOUT_MM_BIRM_CAM:47                           | column for **gout** if diagnosed and records the codes                                      | Text       |
-| BD_MEDI:GOUT_MM_BIRM_CAM:47                          | date column for **gout** to record when the diagnosed was made.                             | Date       |
-| B_MEDI:SYSTEMIC_LUPUS_ERYTHEMATOSUS_MM_BIRM_CAM:48   | column for **systemic lupus erythematosus** if diagnosed and records the codes              | Text       |
-| BD_MEDI:SYSTEMIC_LUPUS_ERYTHEMATOSUS_MM_BIRM_CAM:48  | date column for **systemic lupus erythematosus** to record when the diagnosed was made.     | Date       |
-| B_MEDI:SJOGRENSSYNDROME_BHAM_CAM:49                  | column for **sjogrenssyndrome** if diagnosed and records the codes                          | Text       |
-| BD_MEDI:SJOGRENSSYNDROME_BHAM_CAM:49                 | date column for **sjogrenssyndrome** to record when the diagnosed was made.                 | Date       |
-| B_MEDI:SYSTEMIC_SCLEROSIS_MM_BIRM_CAM:50             | column for **systemic sclerosis** if diagnosed and records the codes                        | Text       |
-| BD_MEDI:SYSTEMIC_SCLEROSIS_MM_BIRM_CAM:50            | date column for **systemic sclerosis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:PMRANDGCA_MM_BIRM_CAM:51                      | column for **pmrandgca** if diagnosed and records the codes                                 | Text       |
-| BD_MEDI:PMRANDGCA_MM_BIRM_CAM:51                     | date column for **pmrandgca** to record when the diagnosed was made.                        | Date       |
-| B_MEDI:CHRONICFATIGUESYNDROMEMM_BIRM_CAM:52          | column for **chronicfatiguesyndromemm** if diagnosed and records the codes                  | Text       |
-| BD_MEDI:CHRONICFATIGUESYNDROMEMM_BIRM_CAM:52         | date column for **chronicfatiguesyndromemm** to record when the diagnosed was made.         | Date       |
-| B_MEDI:FIBROMYALGIA_BHAM_CAM:53                      | column for **fibromyalgia** if diagnosed and records the codes                              | Text       |
-| BD_MEDI:FIBROMYALGIA_BHAM_CAM:53                     | date column for **fibromyalgia** to record when the diagnosed was made.                     | Date       |
-| B_MEDI:POLYCYSTIC_OVARIAN_SYNDROME_PCOS_BIRM_CAM:54  | column for **polycystic ovarian syndrome pcos** if diagnosed and records the codes          | Text       |
-| BD_MEDI:POLYCYSTIC_OVARIAN_SYNDROME_PCOS_BIRM_CAM:54 | date column for **polycystic ovarian syndrome pcos** to record when the diagnosed was made. | Date       |
-| B_MEDI:ENDOMETRIOSIS_ADENOMYOSIS_BIRM_CAM:55         | column for **endometriosis adenomyosis** if diagnosed and records the codes                 | Text       |
-| BD_MEDI:ENDOMETRIOSIS_ADENOMYOSIS_BIRM_CAM:55        | date column for **endometriosis adenomyosis** to record when the diagnosed was made.        | Date       |
-| B_MEDI:HYPOTHYROIDISM_DRAFT_V1_BIRM_CAM:56           | column for **hypothyroidism** if diagnosed and records the codes                            | Text       |
-| BD_MEDI:HYPOTHYROIDISM_DRAFT_V1_BIRM_CAM:56          | date column for **hypothyroidism** to record when the diagnosed was made.                   | Date       |
-| B_MEDI:HYPERTHYROIDISM_V2_BIRM_CAM:57                | column for **hyperthyroidism** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:HYPERTHYROIDISM_V2_BIRM_CAM:57               | date column for **hyperthyroidism** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:ADDISON_DISEASE_BIRM_CAM:58                   | column for **addison disease** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:ADDISON_DISEASE_BIRM_CAM:58                  | date column for **addison disease** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:MS_120421_BIRM_CAM:59                         | column for **ms** if diagnosed and records the codes                                        | Text       |
-| BD_MEDI:MS_120421_BIRM_CAM:59                        | date column for **ms** to record when the diagnosed was made.                               | Date       |
-| B_MEDI:VISUAL_IMPAIRMENT_BIRM_CAM:60                 | column for **visual impairment** if diagnosed and records the codes                         | Text       |
-| BD_MEDI:VISUAL_IMPAIRMENT_BIRM_CAM:60                | date column for **visual impairment** to record when the diagnosed was made.                | Date       |
-| B_MEDI:ANY_DEAFNESS_HEARING_LOSS_BIRM_CAM:61         | column for **any deafness hearing loss** if diagnosed and records the codes                 | Text       |
-| BD_MEDI:ANY_DEAFNESS_HEARING_LOSS_BIRM_CAM:61        | date column for **any deafness hearing loss** to record when the diagnosed was made.        | Date       |
-| B_MEDI:MENIERESDISEASE_BIRM_CAM:62                   | column for **menieresdisease** if diagnosed and records the codes                           | Text       |
-| BD_MEDI:MENIERESDISEASE_BIRM_CAM:62                  | date column for **menieresdisease** to record when the diagnosed was made.                  | Date       |
-| B_MEDI:PERIPHERAL_NEUROPATHY_BIRM_CAM:63             | column for **peripheral neuropathy** if diagnosed and records the codes                     | Text       |
-| BD_MEDI:PERIPHERAL_NEUROPATHY_BIRM_CAM:63            | date column for **peripheral neuropathy** to record when the diagnosed was made.            | Date       |
-| B_MEDI:LEARNINGDISABILITY_BIRM_CAM:64                | column for **learningdisability** if diagnosed and records the codes                        | Text       |
-| BD_MEDI:LEARNINGDISABILITY_BIRM_CAM:64               | date column for **learningdisability** to record when the diagnosed was made.               | Date       |
-| B_MEDI:DOWNSSYNDROME_BIRM_CAM:65                     | column for **downssyndrome** if diagnosed and records the codes                             | Text       |
-| BD_MEDI:DOWNSSYNDROME_BIRM_CAM:65                    | date column for **downssyndrome** to record when the diagnosed was made.                    | Date       |
-| B_MEDI:PERNICIOUSANAEMIA_BIRM_CAM:66                 | column for **perniciousanaemia** if diagnosed and records the codes                         | Text       |
-| BD_MEDI:PERNICIOUSANAEMIA_BIRM_CAM:66                | date column for **perniciousanaemia** to record when the diagnosed was made.                | Date       |
-| B_MEDI:SICKLE_CELL_DISEASE_BIRM_CAM:67               | column for **sickle cell disease** if diagnosed and records the codes                       | Text       |
-| BD_MEDI:SICKLE_CELL_DISEASE_BIRM_CAM:67              | date column for **sickle cell disease** to record when the diagnosed was made.              | Date       |
-| B_MEDI:PSORIASIS_BIRM_CAM:68                         | column for **psoriasis** if diagnosed and records the codes                                 | Text       |
-| BD_MEDI:PSORIASIS_BIRM_CAM:68                        | date column for **psoriasis** to record when the diagnosed was made.                        | Date       |
-| B_MEDI:PSORIATICARTHRITIS2021_MM_BIRM_CAM:69         | column for **psoriaticarthritis** if diagnosed and records the codes                        | Text       |
-| BD_MEDI:PSORIATICARTHRITIS2021_MM_BIRM_CAM:69        | date column for **psoriaticarthritis** to record when the diagnosed was made.               | Date       |
-| B_MEDI:ILD_SH_20092020_BIRM_CAM:70                   | column for **ild sh** if diagnosed and records the codes                                    | Text       |
-| BD_MEDI:ILD_SH_20092020_BIRM_CAM:70                  | date column for **ild sh** to record when the diagnosed was made.                           | Date       |
-| B_MEDI:HAEMOCHROMATOSIS_BIRM_CAM:71                  | column for **haemochromatosis** if diagnosed and records the codes                          | Text       |
-| BD_MEDI:HAEMOCHROMATOSIS_BIRM_CAM:71                 | date column for **haemochromatosis** to record when the diagnosed was made.                 | Date       |
-## License
+| Column name                    | Description                                                                                                          | Data type  |
+|:-------------------------------|:---------------------------------------------------------------------------------------------------------------------|:-----------|
+| B_MEDI:CONDITION_NAME:0                           | column for baseline diagnosed of a condition and records the code.                                | Text       |
+| BD_MEDI:CONDITION_NAME:0                          | date column for a condition to record when the diagnosis was made.                                | Date       |
 
 ## Publications
+1. Cooper, J., Nirantharakumar, K., Crowe, F., Azcoaga-Lorenzo, A., McCowan, C., Jackson, T., Acharya, A., Gokhale, K., Gunathilaka, N., Marshall, T. and Haroon, S., 2023. Prevalence and demographic variation of cardiovascular, renal, metabolic, and mental health conditions in 12 million English primary care records.
